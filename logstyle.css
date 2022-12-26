@@ -1,0 +1,196 @@
+/* @import url('https://fonts.googleapis0com/css?family=Montserrat:400,800'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONTAINER*/
+
+.container{
+    display: flex;
+    height: 500px;
+    width: 739px;
+    border: 1px solid rgb(179, 167, 167);
+    margin: auto;
+    margin-top: 50px;
+    background: rgb(139, 70, 166);
+    box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.22);
+
+}
+
+
+/* FORM */
+
+.form{
+    display: block;
+    /* flex-direction: column; */
+    width: 50%;
+    align-items: center;
+    background-color: gainsboro;
+    /* margin: auto; */
+    /* margin-top: 50px; */
+}
+
+.indication{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rememberMe{
+    padding-right: 20px;
+
+}
+/* .forgot{
+    padding: 10px;
+
+} */
+
+.form h2{
+    font-size: 3rem;
+    padding-top: 39px;
+    text-align: center;
+}
+
+.box{
+    padding: 12px;
+    width: 84%;
+    margin: 15px;
+    /* border: 1px solid black; */
+
+
+}
+
+
+
+.sumit{
+    padding: 12px 30px;
+    width: 83%;
+    margin-top: 40px;
+    background-color: rgb(139, 70, 166);
+    color: #fff;
+    text-align: center;
+    border: none;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-around;
+}
+.log{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* RESEAU SOCIAL */
+
+.social-container{
+    display: flex;
+    justify-content: center;
+}
+
+.social{
+    color: beige;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.option{
+    display: flex;
+    justify-content: center;
+    padding: 21px;
+    align-items: center;
+    color: gray;
+}
+
+/* FOOTER */
+.trait{
+   
+    height: 1px;
+    background: azure;
+    width: 100px;
+}
+
+.copy-right{
+    display: flex;
+    color: beige;
+    margin-top: 7px;
+   background: transparent;
+   justify-content: center;
+}
+
+
+/* .sumit:hover{ pour effet lorsquon point sur un btn
+    cursor:pointer;
+    background-color: #fff;
+} */
+
+/* .form a{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+
+} */
+
+
+/* SIDE RIGHT */
+
+/* BUTTON REGISTER */
+
+
+
+
+.btn{
+    padding-right: -11px;
+    PADDING: 8PX;
+    background-color: rgb(139, 70, 166);
+    border: 1px solid #fff;
+    border-radius: 150PX;
+    padding-left: 31px;
+    text-align: center;
+    color: #fff;
+}
+
+#register{
+    text-align: center;
+    padding-right: -3px;
+    padding-left: 18px;
+    display: block;
+    margin-bottom: -62px
+}
+
+.fleche {
+    
+    padding-right: 2px;
+    padding-left: 8px;
+    color: #fff;
+  
+
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+}
+
+.right, h1, p{
+    color: #fff;
+    /* margin-top: 10px; */
+    padding-top: 19px;
+}
+
+.ghost{
+    padding: 10px;
+}
+
+
+.add{
+    /* color: #fff; */
+    border-radius: 5px;
+    margin-top: -156px;
+}
